@@ -29,11 +29,11 @@
 
 | Field | Your Answer |
 |-------|-------------|
-| **Full Name** | [Write your full name here] |
-| **Student ID** | [Write your student ID here] |
-| **University Email** | [yourid]@std.psau.edu.sa |
-| **GitHub Username** | [your-github-username] |
-| **Repository Link** | [Paste your repository link here] |
+| **Full Name** | [Nourah Hassan Omar ALsaiari] |
+| **Student ID** | [445052639] |
+| **University Email** | [445052639@std.psau.edu.sa] |
+| **GitHub Username** | [Nourah67] |
+| **Repository Link** | [https://github.com/Nourah67/OS-Assignment1-Nourah-alsaiari] |
  
 ---
 
@@ -109,88 +109,101 @@
 
 ## Example Entry (do not copy it, write your own)
 
-### Entry 1 - [September 22, 2026, 2:30 PM]
-**What I did**: Forked the repository and set up my student ID
+### Entry 1 - [October 8, 2026]
+**What I did**: Started working on the Operating Systems assignment.
 
 **Details**:
-- Created GitHub account with university email
-- Forked the starter repository and renamed it
-- Changed student ID on line 150 to my actual ID (441234567)
-- Compiled and ran the program successfully
+- Read the assignment instructions in README.md.
+- Opened SchedulerSimulation.java and reviewed the existing code
+- Ran the original program and observed its output.
+- Started understanding how the Round-Robin scheduling algorithm works.
 - Committed and pushed: `Set my student ID: 441234567`
 
-**Challenges**: Had to install JDK first because `javac` wasn't recognized
+**Challenges**:  Understanding how the scheduler manages processes and threads.
 
-**Solution**: Downloaded JDK 17 and set the PATH variable
+**Solution**: Read the code carefully and observed the program output to understand the execution flow.
 
-**Time spent**: 30 minutes
+**Time spent**: 1 hour and 30 minutes
 
 ---
 
 ## Your Development Log
 
-### Entry 1 - [Date and Time]
-**What I did**:
+### Entry 1 - [October 9, 2026]
+**What I did**:Worked on implementing Feature 1: Process Priority.
 
-**Details**:
+**Details**:1-Reviewed the Process class and the scheduler logic.
+2-Worked on adding priority information to processes.
+3-Tested the code several times to check the changes.
+4-Compared the output before and after the modification.
 
-**Challenges**:
+**Challenges**:This feature took me longer than expected because I needed time to understand the existing code and make the changes correctly.
 
-**Solution**:
+**Solution**:  I reviewed the code step by step and tested the program after making changes.
 
-**Time spent**:
-
----
-
-### Entry 2 - [Date and Time]
-**What I did**:
-
-**Details**:
-
-**Challenges**:
-
-**Solution**:
-
-**Time spent**:
+**Time spent**: 3 hour
 
 ---
 
-### Entry 3 - [Date and Time]
-**What I did**:
+### Entry 2 - [October 9, 2026]
+**What I did**: Worked on Feature 2: Context Switch Counter.
 
-**Details**:
+**Details**:1-Reviewed the scheduler loop to understand when context switches occur.
+2-Worked on adding a counter to track context switches.
+3-Checked where the counter should be updated.
+4-Ran the program and reviewed the output
 
-**Challenges**:
+**Challenges**: Identifying the correct place to count context switches without counting them incorrectly.
 
-**Solution**:
+**Solution**: Reviewed the scheduler logic and tested the program to check the counter.
 
-**Time spent**:
-
----
-
-### Entry 4 - [Date and Time]
-**What I did**:
-
-**Details**:
-
-**Challenges**:
-
-**Solution**:
-
-**Time spent**:
+**Time spent**: 1 hour
 
 ---
 
-### Entry 5 - [Date and Time]
-**What I did**:
+### Entry 3 - [October 10, 2026]
+**What I did**:Worked on Feature 3: Waiting Time Tracking.
 
-**Details**:
+**Details**: 1-Reviewed the scheduling code to understand how waiting time is calculated.
+2-Worked on tracking the waiting time for each process.
+3-Checked how the results should appear in the output table.
+4-Ran the program and reviewed the results.
 
-**Challenges**:
+**Challenges**:Understanding how to calculate waiting time correctly and display it in the final summary.
 
-**Solution**:
+**Solution**: Reviewed the scheduling logic and tested the program to check the calculated values.
 
-**Time spent**:
+**Time spent**: 2 hours
+
+---
+
+### Entry 4 - [October 10, 2026]
+**What I did**:Tested the program after adding the new features.
+
+**Details**:1-Ran the program to check that it worked correctly.
+2-Reviewed the output for the three features.
+3-Checked the results and looked for errors.
+
+**Challenges**: Making sure all the features worked correctly together.
+
+**Solution**: Ran the program and reviewed the output to identify any problems.
+
+**Time spent**: 45 menuts
+
+---
+
+### Entry 5 - [October 10, 2026]
+**What I did**:Reviewed my Git commit history,
+and Checked that my changes were saved in the repository,
+Organized my work to make sure each feature had its own commit.
+
+**Details**:Reviewed the saved commits and checked the changes made during the assignment.
+
+**Challenges**:Making sure the commits clearly showed the work completed for each feature.
+
+**Solution**:Reviewed the commit history and checked the saved changes.
+
+**Time spent**: 30 menuts
 
 ---
 
@@ -211,13 +224,13 @@
 
 > 💡 **TIP:** Fill this in **last**, after all entries are written.
 
-**Total time spent on assignment**: [X hours]
+**Total time spent on assignment**: [10 hours]
 
-**Most challenging part**:
+**Most challenging part**:The most challenging part was implementing the features and understanding how they worked with the existing code.
 
-**Most interesting learning**:
+**Most interesting learning**:I learned how process priority, context switches, and waiting time work in a scheduling simulation.
 
-**What I would do differently next time**:
+**What I would do differently next time**:I would start earlier, divide the work into smaller tasks, and test each change step by step.
 
 ---
 
@@ -237,7 +250,7 @@
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+[I learned that multithreading allows a program to perform multiple tasks concurrently. Each thread has its own execution path, but threads may share resources. I also learned that the CPU scheduler manages how processes or threads get CPU time. Context switching allows the CPU to switch between tasks. Different scheduling methods can affect performance and fairness. This assignment helped me understand scheduling concepts better through coding and testing.]
 
 ## Question 2: What was the most challenging part of this assignment?
 
@@ -245,7 +258,7 @@
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+[The most challenging part was implementing the new features without affecting the original code. I had difficulty understanding how to add process priority correctly. I also needed to understand how to count context switches and calculate waiting time. Sometimes, I had to check the output more than once. Testing the program helped me find and understand problems. This experience taught me to be patient and check my code carefully.]
 
 ## Question 3: How did you overcome the challenges you faced?
 
@@ -253,7 +266,7 @@
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+[I overcame the challenges by reviewing the code and understanding each part step by step. I tested the program after adding each feature. When the output was not correct, I checked my changes and tried again. I also reviewed the scheduling logic to understand how the features worked. Testing helped me find problems and improve my code. In the end, I learned the importance of patience and debugging.]
 
 ## Question 4: How can you apply multithreading concepts in real-world applications?
 
@@ -261,7 +274,7 @@
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+[Multithreading is useful in many real-world applications. For example, an operating system uses scheduling to share CPU time between different running programs. Round-Robin scheduling gives each process a time quantum to run. Another example is a web browser, which can perform different tasks while keeping the user interface responsive. Threads can help applications handle multiple tasks efficiently. Context switching allows the CPU to move between tasks. These concepts help me understand how applications manage their work.]
 
 ### Optional: What would you like to learn more about?
 
@@ -293,7 +306,7 @@
 
 **Your Answer:** *(3-5 sentences)*
 
-[Write your answer here.]
+[A process is a program that is running, while a thread is a unit of execution within a process. A process has its own memory space, while threads in the same process can share memory and resources. In my assignment, each process in the simulation is represented by a thread. The Thread.start() method starts the thread's execution, while Thread.join() waits for it to finish.]
 
 ## Question 2: Ready Queue Behavior
 
@@ -305,7 +318,7 @@
 
 **Your Answer:** *(3-5 sentences)*
 
-[Write your answer here.]
+[The ready queue stores processes waiting for CPU time. In my assignment, the Round-Robin scheduler uses a FIFO order to select processes. Each process gets a turn to run for a limited time called the time quantum. If a process does not finish, it goes back to the end of the queue. The priority feature displays a priority value, but it does not change the queue order.]
 
 Example from my output:
 ```
@@ -323,15 +336,15 @@ Example from my output:
 
 **Your Answer:** *(3-5 sentences overall; one short explanation per state)*
 
-1. **New**: [When is P1 in the New state?]
+1. **New**: [P1 is in the New state when a new Thread object is created in the addProcessToQueue() method. At this point, the thread has been created but has not started running yet.]
 
-2. **Runnable**: [When does P1 become Runnable?]
+2. **Runnable**: [P1 enters the Runnable state when the scheduler calls currentThread.start(). This makes the thread eligible to run when the CPU scheduler gives it a chance.]
 
-3. **Running**: [When is P1 Running?]
+3. **Running**: [P1 is Running when the CPU executes its run() method. During this state, P1 performs its assigned work according to the time quantum.]
 
-4. **Waiting**: [When and why would a thread be Waiting?]
+4. **Waiting**: [P1's thread can enter the Timed Waiting state when Thread.sleep() pauses it for a specified time. Meanwhile, the main scheduler thread waits for P1 to finish its turn when it calls currentThread.join().]
 
-5. **Terminated**: [When is P1 Terminated?]
+5. **Terminated**: [P1 enters the Terminated state when its run() method finishes execution. Once a Java thread is terminated, it cannot be started again, so the program must create a new Thread object if the process needs another turn.]
 
 ## Question 4: Real-World Applications
 
@@ -341,32 +354,32 @@ Example from my output:
 
 **Your Answer:** *(3-5 sentences per example)*
 
-### Example 1 (operating-system level): [Name of scenario]
+### Example 1 (operating-system level): [CPU Scheduling]
 
 **Description**:
-[Describe the real-world scenario.]
+[An operating system manages multiple programs that need CPU time. Round-Robin gives each process a limited time quantum to execute. If a process does not finish, it returns to the end of the ready queue.]
 
 **Why Round-Robin works well here**:
-[Fairness, responsiveness, predictability?]
+[Round-Robin provides fairness because each process gets a turn. It also improves responsiveness by allowing other processes to run instead of letting one process use the CPU continuously.]
 
-### Example 2: [Name of application/scenario]
+### Example 2: [Web Browser]
 
 **Description**:
-[Describe the real-world scenario or application.]
+[A web browser can perform multiple tasks, such as loading webpages and responding to user actions. Threads help the application manage different tasks.]
 
 **Why Round-Robin works well here**:
-[Fairness, responsiveness, predictability?]
+[Round-Robin can share CPU time between tasks that are ready to run. This helps prevent one task from monopolizing CPU time and can improve responsiveness.]
 
 ## Summary
 
 **Key concepts I understood through these questions:**
-1.
-2.
-3.
+1.The difference between a process and a thread.
+2.How Round-Robin scheduling and the ready queue work.
+3.How thread states change during execution.
 
 **Concepts I need to study more:**
-1.
-2.
+1.Calculating waiting time and turnaround time accurately.
+2.Understanding thread synchronization and context switching in more detail.
 
 ---
 
@@ -375,36 +388,36 @@ Example from my output:
 > ⚠️ **WARNING:** Go through every line. Late submission costs **-1 mark per day**, and the deadline is **October 10, 2026**.
 
 **Repository**
-- [ ] Repository is **PUBLIC** (Settings → Danger Zone → Visibility)
-- [ ] Repository is renamed to `OS-Assignment1-YourFirstName-YourLastName`
-- [ ] GitHub account uses the university email (`@std.psau.edu.sa`)
+- [✅ ] Repository is **PUBLIC** (Settings → Danger Zone → Visibility)
+- [✅ ] Repository is renamed to `OS-Assignment1-YourFirstName-YourLastName`
+- [ ✅] GitHub account uses the university email (`@std.psau.edu.sa`)
 
 **Code**
-- [ ] Student ID is set in `SchedulerSimulation.java` (line 150)
-- [ ] Code compiles and runs with no errors
-- [ ] Feature 1 (priority), Feature 2 (context switches) and Feature 3 (waiting time table) all work
-- [ ] Each feature has clear comments
+- [✅ ] Student ID is set in `SchedulerSimulation.java` (line 150)
+- [ ✅] Code compiles and runs with no errors
+- [✅ ] Feature 1 (priority), Feature 2 (context switches) and Feature 3 (waiting time table) all work
+- [✅ ] Each feature has clear comments
 
 **Commits**
-- [ ] **At least 3 meaningful commits, ideally 6 or more**
-- [ ] **One commit per feature**
-- [ ] Commits are spread over **different dates** (not all in the last hour)
-- [ ] Everything is **pushed** to GitHub
+- [ ✅] **At least 3 meaningful commits, ideally 6 or more**
+- [✅ ] **One commit per feature**
+- [✅ ] Commits are spread over **different dates** (not all in the last hour)
+- [✅ ] Everything is **pushed** to GitHub
 
 **This file (`MY_WORK.md`)**
-- [ ] Full name and student ID filled in at the top
-- [ ] Development log has **5+ entries** on different dates
-- [ ] Reflection: 4 questions, 5-7 sentences each
-- [ ] Technical answers: 4 questions, 3-5 sentences each, with examples from **your** output
-- [ ] No `[...]` placeholders left
-- [ ] No section headers deleted
+- [ ✅] Full name and student ID filled in at the top
+- [✅ ] Development log has **5+ entries** on different dates
+- [ ✅] Reflection: 4 questions, 5-7 sentences each
+- [✅ ] Technical answers: 4 questions, 3-5 sentences each, with examples from **your** output
+- [✅ ] No `[...]` placeholders left
+- [✅ ] No section headers deleted
 
 **Video**
-- [ ] 2-3 minutes long, named `StudentID_Assignment1_Demo.mp4`
-- [ ] Shows your name, ID, repository, 3 features, IDE execution, one threading concept, and commit history
-- [ ] Link is **public** (tested in an incognito window) and pasted in the **Video Link** section above
+- [ ✅] 2-3 minutes long, named `StudentID_Assignment1_Demo.mp4`
+- [ ✅] Shows your name, ID, repository, 3 features, IDE execution, one threading concept, and commit history
+- [ ✅] Link is **public** (tested in an incognito window) and pasted in the **Video Link** section above
 
 **Blackboard**
-- [ ] Submit **only** the link to your public GitHub repository
+- [ ✅] Submit **only** the link to your public GitHub repository
 
 > 🎯 **Good luck!** Start early, commit regularly, and make sure you can explain every line you submit.
